@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "install base packages"
+      import_role:
+        name: ansible-base-packages

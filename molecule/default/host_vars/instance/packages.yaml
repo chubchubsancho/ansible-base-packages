@@ -1,0 +1,3 @@
+---
+host_base_packages:
+  - git

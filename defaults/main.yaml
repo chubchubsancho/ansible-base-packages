@@ -1,1 +1,4 @@
 ---
+base_packages: []
+environment_base_packages: []
+host_base_packages: []

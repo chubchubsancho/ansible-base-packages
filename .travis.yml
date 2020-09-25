@@ -14,10 +14,10 @@ env:
   # - image=centos version=6
   # - image=centos version=7
   # - image=centos version=8
-  - image=ubuntu version=16.04
-  - image=ubuntu version=18.04
-  - image=ubuntu version=19.10
-  - image=ubuntu version=20.04
+  # - image=ubuntu version=16.04
+  # - image=ubuntu version=18.04
+  # - image=ubuntu version=19.10
+  # - image=ubuntu version=20.04
 
 jobs:
   include:

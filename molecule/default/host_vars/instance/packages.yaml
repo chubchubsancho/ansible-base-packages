@@ -1,3 +1,3 @@
 ---
 host_base_packages:
-  - name: git
+  - git

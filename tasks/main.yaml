@@ -1,0 +1,10 @@
+---
+- name: "import environment specific variables"
+  include_vars: "{{ ansible_distribution  | lower }}.yaml"
+  tags:
+    - variables
+
+- name: "install base packages"
+  include_tasks: "{{ ansible_distribution  | lower }}-base-packages.yaml"
+  tags:
+    - packages

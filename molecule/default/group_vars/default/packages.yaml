@@ -1,0 +1,3 @@
+---
+environment_base_packages:
+  - name: zsh

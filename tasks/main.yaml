@@ -5,6 +5,12 @@
     - variables
 
 - name: "install base packages"
-  include_tasks: "{{ ansible_distribution  | lower }}-base-packages.yaml"
+  include_tasks: "{{ ansible_os_family  | lower }}-base-packages.yaml"
   tags:
+    - packages
+
+- name: "install pip packages"
+  include_tasks: "pip-packages.yml"
+  tags:
+    - pip
     - packages
